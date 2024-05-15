@@ -12,16 +12,20 @@ function Projects() {
                     <p>During my time at Penn, I've had the opportunity to work on Software Engineering and Data Science projects alike. Here's a list of a few of them.</p>
                 </div>
                 <div className='projects'>
-                    <a className='project-box' href= '#'>
+                    <a className='project-box' href= 'https://github.com/hrizwan3/AutoAvenue'>
+                        <h2>AutoAvenue</h2>
+                        <p>A web application designed for users to check and compare used car prices and reviews across the market. The features include search, reviews, popular cars, efficient cars, and hidden gems.</p>
+                    </a>
+                    <a className='project-box'>
                         <h2>PennOS</h2>
                         <p>A Linux-like operating system with a shell, standalone file system, and kernel. PennOS had robust support for system calls with a round-robin scheduler, integrated shell built-ins, and a custom FAT. This project was written in C, and the ucontext library was utilized to create and manage processes.</p>
                     </a>
-                    <a className='project-box' href= '#'>
+                    <a className='project-box' href= 'https://github.com/hrizwan3/flightcancellations'>
                         <h2>Flight Delays and Cancellations</h2>
                         <p>A three-person project focused on analyzing flight data to predict delays and cancellations. The project used Python libraries like Pandas, Scikit-Learn, and TensorFlow to apply machine learning techniques such as Random Forests, Naive Bayes, Logistic Regression, and Neural Networks, focusing on variables like date, time, and flight routes.</p>
                     </a>
 
-                    <a className='project-box' href='#'>
+                    <a className='project-box'>
                         <h2>Embedded Pong</h2>
                         <p>The classic game of Pong, developed using a TFT LCD module and joystick control through bare metal C. It featured a wireless integration using the NodeMCU board and Blynk platform, enabling remote control of player paddles.</p>
                     </a>
